@@ -9,7 +9,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'dev',
+                git branch: 'main',
                 url: 'https://github.com/balajicse49-oss/project-3.git'
             }
         }
